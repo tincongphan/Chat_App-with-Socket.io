@@ -1,0 +1,115 @@
+body {
+  overflow: hidden !important;
+  background-image: url("../img/roomchat.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+body ::-webkit-scrollbar {
+  width: 7px;
+}
+body ::-webkit-scrollbar-track {
+  border-radius: 3px;
+}
+body ::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 3px;
+}
+body ::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+body:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.274);
+  z-index: 1;
+}
+body .chatapp_2 {
+  position: absolute;
+  z-index: 2;
+  width: 60%;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body .chatapp_2 .chatapp_3 {
+  height: 100%;
+}
+body .chatapp_2 .chatapp_3 .userlist {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.781);
+  border-radius: 10px;
+  box-shadow: 0 0 12px white;
+}
+body .chatapp_2 .chatapp_3 .userlist .nameroom p:nth-child(1) {
+  color: #ff9966;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+body .chatapp_2 .chatapp_3 .userlist .nameroom p:nth-child(2) {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.514), yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .chatapp_2 .chatapp_3 .userlist .user ul {
+  display: inline-block;
+  height: 395px;
+  overflow-y: scroll;
+  width: 100%;
+}
+body .chatapp_2 .chatapp_3 .userlist .user ul li {
+  list-style-type: none;
+  color: white;
+  font-size: 22px;
+}
+body .chatapp_2 .chatapp_3 .userchat {
+  height: 100%;
+  position: relative;
+  background-color: #9900ccd3;
+  border-radius: 10px;
+  box-shadow: 0 0 12px white;
+}
+body .chatapp_2 .chatapp_3 .userchat .txtlist {
+  color: white;
+  margin-top: 10px;
+  height: 410px;
+  overflow-y: scroll;
+}
+body .chatapp_2 .chatapp_3 .userchat .txtlist .message_row1 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+body .chatapp_2 .chatapp_3 .userchat .txtlist .message_row1 .message_name {
+  font-size: 19px;
+  color: #ffff33;
+}
+body .chatapp_2 .chatapp_3 .userchat .txtlist .message_row2 .message_content {
+  color: #00ffff;
+  text-align: justify;
+  text-decoration: none;
+}
+body .chatapp_2 .chatapp_3 .userchat .formchat {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  width: 96%;
+}
+
+/*# sourceMappingURL=chat.css.map */

@@ -1,0 +1,64 @@
+.chatapp_1 {
+    background-image: url("../img/chatimage.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    .txtchatapp {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 30px;
+        font-weight: bold;
+        background: linear-gradient(to right, rgba(255, 0, 0, 0.514), yellow);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .contain {
+        width: 30%;
+        height: 60%;
+        background-color: rgba(127, 255, 212, 0.932);
+        border-radius: 12px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .form {
+            width: 80%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            .formgroup {
+                display: flex;
+                height: 50px;
+                span {
+                    width: 20%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: rgba(128, 128, 128, 0.76);
+                    i {
+                        font-size: 27px;
+                        color: yellow;
+                    }
+                }
+                input {
+                    border: none;
+                }
+                input:focus {
+                    outline: none !important;
+                }
+            }
+            .formgroupbtn {
+                text-align: center;
+                button {
+                    width: 70%;
+                    height: 50px;
+                    color: red;
+                    font-size: 26px;
+                    font-weight: 500;
+                    border-radius: 7px;
+                }
+            }
+        }
+    }
+}
